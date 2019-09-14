@@ -17,8 +17,10 @@ global $location
         <h2> Welcome To My Site</h2>
     </div>
     <div class="pic">
-        <img src="assets/profile.jpg" width="100%" height="100%">
-        <div class="header">
+        <div class="pic-image">
+            <img src="assets/profile.jpg" width="100%" height="100%" class="pic-image-image">
+        </div>
+        <div class="header pic-description" >
             NELSON NYAMBAKA
         </div>
     </div>

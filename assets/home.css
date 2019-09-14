@@ -79,3 +79,23 @@ body{
     width: 60px;
     height: 60px;
 }
+
+
+@media (max-width: 1058px) {
+    .card{
+        width: 100%;
+        clear: both;
+    }
+    .welcome{
+        text-align: center;
+    }
+    .pic{
+        width: 100%;
+    }
+
+    /*.pic-image.pic-description{*/
+    /*    width: 100%;*/
+    /*    text-align: center;*/
+    /*    clear: both;*/
+    /*}*/
+}
