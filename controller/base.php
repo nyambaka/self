@@ -4,7 +4,6 @@
 class base
 {
 
-
     function __construct()
     {
     }

@@ -108,11 +108,6 @@ $router = new class($_GET['url']??"home") {
         }
     }
 
-
-
-
-
-
 };
 
 echo $router->load();

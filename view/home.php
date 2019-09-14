@@ -10,7 +10,7 @@ global $location
 </head>
 <body>
 <div class="background-video">
-    <video autoplay="autoplay" src="assets/video.mp4" loop ></video>
+    <video autoplay="autoplay" src="assets/video.mp4" loop muted ></video>
 </div>
 <div class="body">
     <div class="welcome">
@@ -20,7 +20,7 @@ global $location
         <div class="pic-image">
             <img src="assets/profile.jpg" width="100%" height="100%" class="pic-image-image">
         </div>
-        <div class="header pic-description" >
+        <div class="profile-name" >
             NELSON NYAMBAKA
         </div>
     </div>
@@ -68,8 +68,23 @@ global $location
             <hr class="hr" >
         </div>
     </div>
+    <div class='form'>
+        <form>
+            <div>
+                <label for='name' class='label' >Enter Your name</label>
+                <input  type='text' name='name' id=name class='input'/>
+                 <label for='email' class='label'>Enter Email Address</label>
+                <input  type='text' name='email' id=email class='input'/>
+                <label for='details' class='label'>Make a request</label>
+                <textarea id='details' name='details'  class='request'>
+                </textarea>
+                <input type='reset' name='reset' value='clear' class='reset'/>
+                <input type='submit' name='submit' value='send' class='send'/>
+            </div>
+        </form>
+    </div>
     <div class="footer">
-        <a href="https://github.com/nyambaka"><img src="assets/profile.jpg" class="contact-img"></a>
+        <a href="https://github.com/nyambaka"><img src="assets/photos/github.png" class="contact-img"></a>
         <a href="https://facebook.com/nyambaka"><img src="assets/photos/facebook.jpg" class="contact-img"></a>
         <a href="phone"><img src="assets/photos/phone.png" class="contact-img"></a>
         <a href="sms"><img src="assets/photos/sms.png" class="contact-img"></a>
