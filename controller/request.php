@@ -4,7 +4,13 @@
 class request{
     
     function __construct(){
-        
+        $holder= $_SERVER['HTTP_USER_AGENT']??"null";
+        if(strstr($holder,"Windows") || strstr($holder,"Mac") ){
+            echo "desktop browsing mode";
+        }
+        else{
+            echo "you are browsing with mobile phone";
+        }
         
     }
     

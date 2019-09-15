@@ -9,12 +9,9 @@ global $location
     <link rel="stylesheet" href="<?= $location . "/assets/home.css" ?>"
 </head>
 <body>
-<div class="background-video">
-    <video autoplay="autoplay" src="assets/video.mp4" loop muted ></video>
-</div>
-<div class="body">
+<div class="body mobile">
     <div class="welcome">
-        <h2>NELSON NYAMBAKA</h2>
+        <h2> NELSON NYAMBAKA</h2>
     </div>
     <div class="pic">
         <div class="pic-image">
@@ -24,7 +21,6 @@ global $location
             NELSON NYAMBAKA
         </div>
     </div>
-
     <div class="card">
         <div class='card-holder'>
             <div class="header">

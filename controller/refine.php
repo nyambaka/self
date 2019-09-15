@@ -3,12 +3,11 @@
 class refine{
     function  __construct()
     {
-
+          header('application/json'); 
     }
 
     function assets(){
         global $location;
-        header('application/json');
         echo json_encode(array(
             "name"=>"assets",
             "css"=>$location."assets/home.css",
@@ -20,7 +19,6 @@ class refine{
 
     function template(){
         global $location;
-        header("application/json");
         echo json_encode(array(
             "name"=>"template",
             "template"=>$location."/view/temp.html"
@@ -28,27 +26,11 @@ class refine{
     }
 
     function text(){
-        header('application/json');
         echo json_encode(array(
             "name"=>"NElSON NYAMBAKA",
             "personal_details"=>"PERSONAL DETAILS",
-            "computer_skills"=>"COMPUTER SKILLS",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
-            ""=>"",
+            "computer_skills"=>"COMPUTER SKILLS"
         ));
     }
+    
 }

@@ -9,8 +9,12 @@ class  home extends  base{
     }
 
     function index(){
-        $this->render("home");
+         $holder= $_SERVER['HTTP_USER_AGENT']??"null";
+        if(strstr($holder,"Windows") || strstr($holder,"Mac") ){
+            $this->render("home");
+        }
+        else{
+            $this->render("phone_home");
+        }   
     }
-
-
 }
