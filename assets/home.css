@@ -26,12 +26,46 @@ body {
     opacity: .8;
 }
 
-.form {
-    width: 500px;
+.section {
+    height: auto;
     clear: both;
+    padding-top: 40px;
+    width: 99%;
+    margin-top: 30px;
+}
+
+.form-caption {
+    background-color: black;
+    color: green;
+    width: 550px;
+    float: left;
+    padding-left: 20px;
+    margin-left: 12px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.caption-header {
+    width: 500px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.label {
+    color: whitesmoke;
+    width: 100%;
+    line-height: 30px;
+}
+
+.form {
+    float: left;
+    width: 500px;
     padding-right: 10px;
-    margin: 10px;
-    padding-top: 20px;
+    margin-left: 10px;
     padding-bottom: 20px;
 }
 
@@ -58,7 +92,7 @@ body {
 
 .send {
     width: 68%;
-    line-height: 3px;
+    line-height: 30px;
 }
 
 .label {
@@ -83,7 +117,7 @@ body {
 .card {
     color: green;
     background-color: black;
-    width: calc(550px);
+    width: 550px;
     float: left;
     padding-left: 20px;
     margin-left: 12px;
@@ -118,7 +152,10 @@ body {
 }
 
 .details {
+    width: 80%;
     padding-left: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .footer {
@@ -160,4 +197,12 @@ body {
         width: 100%;
         height: auto;
     }
+
+    .break {
+        clear: both;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:550px) {
 }
