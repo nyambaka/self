@@ -1,2 +1,2 @@
 <?php
-$location = "http://localhost/self/";
+$location = "https://nyambaka.herokuapp.com/";
