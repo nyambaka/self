@@ -1,61 +1,81 @@
 <?php
 
+class request {
 
-class request{
-    
-    function __construct(){
-        $holder= $_SERVER['HTTP_USER_AGENT']??"null";
-        if(strstr($holder,"Windows") || strstr($holder,"Mac") ){
-            echo "desktop browsing mode";
-        }
-        else{
-            echo "you are browsing with mobile phone";
-        }
-        
+    private $request;
+
+    function __construct() {
+        header("Content-Type:application/json");
+        $raw_data = file_get_contents("php://input");
+        $this->request = json_decode($raw_data, TRUE);
+        echo $this->check();
     }
-    
+
     //save request to file
-    private function save(){
-        
+    private function save() {
+        $handle = fopen("request.txt", "a+");
+        $email = $this->request['name'] ?? "none";
+        $name = $this->request['email'] ?? "none";
+        $details = $this->request['details'] ?? "none";
+        $line = $name . " \t" . $email . " \t" . $details . " \n";
+        fwrite($handle, $line);
     }
 
     //check if the request if properly formated
-    private function check(){
-    $error=true;
-     if(!isset($_POST['name'])){
-        $error = "fill in the name field";
-     }
-     else{
-        if (len($_POST['name'])>40){
-            $error ="name field should have a most 40 characters";
+    private function check() {
+        if (!$this->email() || !$this->name() || !$this->sent_request()) {
+            return json_encode($this->error);
+        } else {
+            $this->save();
+            return json_encode(array(
+                "success" => "request sent successfully"
+            ));
         }
-     }
-     
-     if(!isset($_POST['emaill'])){
-        $error = "fill in the email field";
-     } else{
-        if (len($_POST['email'])>40){
-            $error ="email field should have a most 40 characters";
-        }
-     }
-     
-     if(!isset($_POST['request'])){
-        $error = "fill in the request field";
-        
-     } else{
-        if (len($_POST['request'])>140){
-            $error ="name field should have a most 140 characters";
-        }
-     }
-     
-     return $error;
-    }
-    
-    //display error when the request is sent.
-    private function error($error){
-        global $location;
-        return header("Location:$location./error");
     }
 
+    private function name() {
+        $name = $this->request['name'] ?? false;
+        $error = false;
+        if (!$name) {
+            $error = "fill in the name field";
+        } else {
+            if (strlen($name) > 40) {
+                $error = "name field should have at most 40 characters";
+            }
+        }
+        $this->error['error'] = $error;
+        return $name;
+    }
 
+    private function email() {
+        $email = $this->request['email'] ?? false;
+        $error = false;
+        if (!$email) {
+            $error = "fill in the email field";
+        } else {
+            if (strlen($email) > 40) {
+                $error = "email field should have at most 40 characters";
+            }
+        }
+        $this->error['error'] = $error;
+        return $email;
+    }
+
+    private function sent_request() {
+        $details = $this->request['details'] ?? false;
+        $error = false;
+        if (!$details) {
+            $error = "fill in the details field";
+        } else {
+            if (strlen($details) > 40) {
+                $error = "details field should have at most 40 characters";
+            }
+        }
+        $this->error['error'] = $error;
+        return $details;
+    }
+
+//    function __toString() {
+//        return "request";
+//    }
 }

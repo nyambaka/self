@@ -89,15 +89,14 @@ global $location
         <div class='header'>
          Application form
     </div>
-        <form method='post' action='<?=$location?>/request'>
+        <form onsubmit="return form.auto();" id="form" method="post">
             <div>
                 <label for='name' class='label' >Enter Your name</label>
                 <input  type='text' name='name' id=name class='input'/>
                  <label for='email' class='label'>Enter Email Address</label>
                 <input  type='text' name='email' id=email class='input'/>
                 <label for='details' class='label'>Make a request</label>
-                <textarea id='details' name='details'  class='request'>
-                </textarea>
+                <textarea id='details' name='details'  class='request'></textarea>
                 <input type='reset' name='reset' value='clear' class='reset'/>
                 <input type='submit' name='submit' value='send' class='send'/>
             </div>
@@ -112,5 +111,6 @@ global $location
         <a href="whatsapp"><img src="assets/photos/whatsapp.jpg" class="contact-img"></a>
     </div>
 </div>
+    <script type="text/javascript"  src="<?= $location . "assets/formSender.js"?>"></script>  
 </body>
 </html>

@@ -128,6 +128,27 @@ body {
     clear: both;
 }
 
+#success{
+    color: green;
+    width: 100%;
+    background-color: whitesmoke;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+#error{
+    color: white;
+    width: 100%;
+    background-color: red;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
 .center-align {
     text-align: center;
 }
@@ -201,9 +222,11 @@ body {
         width: 100%;
         height: auto;
     }
-
+    
     .break {
         clear: both;
         margin-top: 40px;
     }
+    
+    
 }

@@ -93,17 +93,19 @@ global $location
         <div class='header'>
          Application form
     </div>
-        <form method='post' action='<?=$location?>/request'>
+        <form onsubmit="return form.auto();" id="form" method="post">
             <div>
-                <label for='name' class='label' >Enter Your name</label>
-                <input  type='text' name='name' id=name class='input'/>
+                <div id="error"></div>
+                <div id="success"></div>
+                <label for='name' class='label'  >Enter Your name</label>
+                <input  type='text' name='name' id=name class='input' required="required" max="40"/>
                  <label for='email' class='label'>Enter Email Address</label>
-                <input  type='text' name='email' id=email class='input'/>
+                 <input  type='email' name='email' id=email class='input' required="required"/>
                 <label for='details' class='label'>Make a request</label>
-                <textarea id='details' name='details'  class='request'>
+                <textarea id='details' name='details'  class='request' required="required" maxlength="40">
                 </textarea>
                 <input type='reset' name='reset' value='clear' class='reset'/>
-                <input type='submit' name='submit' value='send' class='send'/>
+                <input type='submit' name='submit' value='send' class='send' />
             </div>
         </form>
     </div>
@@ -115,6 +117,7 @@ global $location
         <a href="sms"><img src="assets/photos/sms.png" class="contact-img"></a>
         <a href="whatsapp"><img src="assets/photos/whatsapp.jpg" class="contact-img"></a>
     </div>
+    <script type="text/javascript"  src="<?= $location . "assets/formSender.js"?>"></script>    
 </div>
 </body>
 </html>
