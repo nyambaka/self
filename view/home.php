@@ -31,9 +31,14 @@ global $location
                 PERSONAL STATEMENT
             </div>
             <div class="details">
-                I started with the interest in Genetic Science. I was attracted to the field because of its unimaginable opportunities.
-                I later introduced to computer programming as a way to pass time. Later i learnt that the field had almost same opportunity
-                online courses put me on feet.I took a web preferred web to native. I now a proffessional i both web and Genetics.With real world experience
+                I started with the interest in Genomic Science. 
+                attracted to the field because of its unimaginable opportunities.
+                I later was introduced to computer programming as a way to pass time. 
+                Later i learnt that the field had almost same opportunity
+                online courses put me on feet.
+                I preferred web to native. 
+                Now am both web developer and genomic scientist.
+                Since Genomic science is relatively new proffessional i mostly deal with web development.
             </div>
            <hr>
         </div>
@@ -76,17 +81,22 @@ global $location
         <div class='caption-header'>
             Request Section
         </div>
-        If you like create your website for yourself or your business.
-        I belive if a business does not have  a website in this digital age it is loosing alot.
-        and it makes it hard to convience it customers that they mean business.
-        It comes to the simple phrase if it has no website it does not exist.
-        
-        having a website is great .Just having a website is not enough,
-        Since a website might be the first impression you give your customers a having 
-        A proffessional looking website a big plus to a business. Don't just exist be live and live fully.
-        
-        You are on right spot if you are looking for  being <i>live</i> fully functional, and being up up full time.
-        Fill in the the application form or find your favourite communication channel on the footer.
+        <div class="details">
+        It comes to the simple phrase if it not on web it does not exist.
+        <br>
+        <br>
+        If you would like create your website for yourself or your business.
+        If a business does not have  a website in this digital age it is loosing alot.
+        and it makes it hard to convience its customers even it exists.
+        <br>
+        Having a website is great .Just having a website is not enough,
+        Since a website might be the first impression you give your customers having 
+        a proffessional looking website a big plus to a business. Don't just exist be live and live fully.
+        <br>
+        <br>
+        You are on right spot if you are looking for  being <i>live</i> fully functional, and being up full time.
+        Fill in the the application form or find your favourite communication channel on the footer to get your website.
+        </div>
     </div>
     
     <div class='form'>
@@ -116,6 +126,7 @@ global $location
         <a href="phone"><img src="assets/photos/phone.png" class="contact-img"></a>
         <a href="sms:+254700741837"><img src="assets/photos/sms.png" class="contact-img"></a>
         <a href="https://wa.me/254700741837"><img src="assets/photos/whatsapp.jpg" class="contact-img"></a>
+        <a href="email:nelsonnyambaka@gmail.com"><img src="assets/photos/email.png" class="contact-img"></a>
     </div>
     <script type="text/javascript"  src="<?= $location . "assets/formSender.js"?>"></script>    
 </div>

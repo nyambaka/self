@@ -5,7 +5,7 @@ var form = (function name() {
         var email = document.getElementById('email').value;
         var details = document.getElementById('details').value;
         fetch(
-                "https://nyambaka.herokuapp.com/request",
+                "https://nyambaka.herokuapp.com",
                 {
                     method: 'POST',
                     headers: {

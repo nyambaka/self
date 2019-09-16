@@ -177,6 +177,8 @@ body {
     padding-left: 20px;
     padding-right: 10px;
     margin-right: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 .footer {
@@ -222,11 +224,43 @@ body {
         width: 100%;
         height: auto;
     }
-    
+
     .break {
         clear: both;
         margin-top: 40px;
     }
-    
-    
+
+    .form{
+        width: 100%;
+    }
+
+    .form-caption{
+        width: 100%;
+        margin-right:15px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .caption-header{
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width:1136px){
+    .form{
+        width: 100%;
+    }
+
+    .form-caption{
+        width: 100%;
+        margin-right:15px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .caption-header{
+        width: 100%;
+    }
 }
