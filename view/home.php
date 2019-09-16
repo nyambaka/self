@@ -112,10 +112,10 @@ global $location
     </div>
     <div class="footer">
         <a href="https://github.com/nyambaka"><img src="assets/photos/github.png" class="contact-img"></a>
-        <a href="https://facebook.com/nyambaka"><img src="assets/photos/facebook.jpg" class="contact-img"></a>
+        <a href="https://web.facebook.com/citrida.citrida"><img src="assets/photos/facebook.jpg" class="contact-img"></a>
         <a href="phone"><img src="assets/photos/phone.png" class="contact-img"></a>
-        <a href="sms"><img src="assets/photos/sms.png" class="contact-img"></a>
-        <a href="whatsapp"><img src="assets/photos/whatsapp.jpg" class="contact-img"></a>
+        <a href="sms:+254700741837"><img src="assets/photos/sms.png" class="contact-img"></a>
+        <a href="https://wa.me/254700741837"><img src="assets/photos/whatsapp.jpg" class="contact-img"></a>
     </div>
     <script type="text/javascript"  src="<?= $location . "assets/formSender.js"?>"></script>    
 </div>
