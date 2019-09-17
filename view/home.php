@@ -32,7 +32,7 @@ global $location
                         PERSONAL STATEMENT
                     </div>
                     <div class="details">
-                        I started with interest in Genomic Science. Attracted to the field because of its unimaginable opportunities. I later was introduced to computer programming as a way to pass time. I learnt that the field had almost same opportunities as Genomic Science . Online courses put me on feet. I preferred the web to native development. Now am both web developer and genomic scientist. Since Genomic science is relatively new proffessional I mostly deal with web development.
+                        I started with interest in Genomic Science. Attracted to the field because of its unimaginable opportunities. I later was introduced to computer programming as a way to pass time. I learnt that the field had almost same opportunities as Genomic Science . Online courses put me on feet. I preferred the web to native development. Now am both a web developer and genomic scientist. Since Genomic science is relatively new proffessional I mostly deal with web development.
                     </div>
                     <hr>
                 </div>
@@ -67,7 +67,7 @@ global $location
                         <br>
                         <br>
                         Would you like to create your website for yourself or your business. If a business does not have a website at this age it is losing a lot, and it makes it hard to communicate to your customers officially.
-                        Since a website might be the first impression you give your customers having a professional-looking website a big plus to a business.Make the Major Step to Start the right way by owning a website.
+                        Since a website might be the first impression you give your customers having a professional-looking website is a big plus to a business.Make the Major Step to Start the right way by owning a website.
                         <br>
                          Fill in the application form or find your favorite communication channel on the footer to request for a website.
                     </div>
