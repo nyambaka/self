@@ -59,10 +59,10 @@ global $location
                         Request Section
                     </div>
                     <div class="details">
-                        It comes to the simple phrase if it not on web it does not exist.
+                        It comes to a simple phrase <i>"if it's not on web it does not exist"</i>.
                         <br>
                         <br>
-                        Would you like to create your website for yourself or your business. If a business does not have a website at this age it is losing a lot, and it makes it hard to communicate to your customers officially.
+                        Would you like to create a website for yourself or your business. If a business does not have a website at this age it is losing a lot, and it makes it hard to communicate to your customers officially.
                         Since a website might be the first impression you give your customers having a professional-looking website is a big plus to a business.Make the Major Step to Start the right way by owning a website.
                         <br>
                          Fill in the application form or find your favorite communication channel on the footer to request for a website.
