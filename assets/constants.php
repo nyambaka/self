@@ -1,2 +1,3 @@
 <?php
-$location = "https://nyambaka.herokuapp.com";
+$location = "https://nyambaka.herokuapp.com/";
+//$location = "//localhost/self/";
