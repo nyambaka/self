@@ -18,7 +18,7 @@ global $location
     </div>
     <div class="pic">
         <div class="pic-image">
-            <img src="assets/photos/photo.png">
+            <img src="assets/photos/photo.PNG">
         </div>
         <div class="profile-name" >
             NELSON NYAMBAKA
