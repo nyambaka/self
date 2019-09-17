@@ -28,7 +28,7 @@ global $location
                         PERSONAL STATEMENT
                     </div>
                     <div class="details">
-                        I started with an interest in Genomic Science. attracted to the field because of its unimaginable opportunities. I later was introduced to computer programming as a way to pass time. Later I learned that the field had the almost same opportunity online courses put me on feet. I preferred the web to native. Now am both web developer and genomic scientist. Since Genomic science is relatively new proffessional I mostly deal with web development.
+                        I started with interest in Genomic Science. Attracted to the field because of its unimaginable opportunities. I later was introduced to computer programming as a way to pass time. I learnt that the field had almost same opportunities as Genomic Science . Online courses put me on feet. I preferred the web to native development. Now am both web developer and genomic scientist. Since Genomic science is relatively new proffessional I mostly deal with web development.
                     </div>
                     <hr>
                 </div>
@@ -62,10 +62,10 @@ global $location
                         It comes to the simple phrase if it not on web it does not exist.
                         <br>
                         <br>
-                        If you would like to create your website for yourself or your business. If a business does not have a website in this digital age it is losing a lot. and it makes it hard to express yourself to customers.
-                        Having a website is great. Just having a website is not enough, Since a website might be the first impression you give your customers having a professional-looking website a big plus to a business. Don't just exist to be live and live fully.
+                        If you would like to create your website for yourself or your business. If a business does not have a website in this digital age it is losing a lot, and it makes it hard to express yourself to customers.
+                        Having a website is great. Just having a website is not enough, Since a website might be the first impression you give your customers having a professional-looking website a big plus to a business. Don't just exist to be live, live fully.
                         <br>
-                        You are on the right spot if you are looking for being live fully functional, and being up full time. Fill in the application form or find your favorite communication channel on the footer to get your website.
+                        You are on the right spot if you are looking to being live, fully functional, and being up full time. Fill in the application form or find your favorite communication channel on the footer.
                     </div>
                 </div>
 
