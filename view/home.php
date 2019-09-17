@@ -66,10 +66,10 @@ global $location
                         It comes to the simple phrase if it not on web it does not exist.
                         <br>
                         <br>
-                        If you would like to create your website for yourself or your business. If a business does not have a website in this digital age it is losing a lot, and it makes it hard to express yourself to customers.
-                        Having a website is great. Just having a website is not enough, Since a website might be the first impression you give your customers having a professional-looking website a big plus to a business. Don't just exist to be live, live fully.
+                        Would you like to create your website for yourself or your business. If a business does not have a website at this age it is losing a lot, and it makes it hard to communicate to your customers officially.
+                        Since a website might be the first impression you give your customers having a professional-looking website a big plus to a business.Make the Major Step to Start the right way by owning a website.
                         <br>
-                        You are on the right spot if you are looking to being live, fully functional, and being up full time. Fill in the application form or find your favorite communication channel on the footer.
+                         Fill in the application form or find your favorite communication channel on the footer to request for a website.
                     </div>
                 </div>
 
