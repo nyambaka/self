@@ -18,7 +18,7 @@ global $location
     </div>
     <div class="pic">
         <div class="pic-image">
-            <img src="assets/photos/photo.jpg">
+            <img src="assets/photos/photo.png">
         </div>
         <div class="profile-name" >
             NELSON NYAMBAKA
@@ -113,7 +113,7 @@ global $location
         <a href="tel:+254700741837" class="footer-icon"><img src="assets/photos/phone.png" class="contact-img"></a>
         <a href="sms:+254700741837" class="footer-icon"><img src="assets/photos/sms.png" class="contact-img"></a>
         <a href="https://wa.me/254700741837" class="footer-icon"><img src="assets/photos/whatsapp.jpg" class="contact-img"></a>
-        <a href="email:nelsonnyambaka@gmail.com" class="footer-icon"><img src="assets/photos/email.png" class="contact-img"></a>
+        <a href="mailto:nelsonnyambaka@gmail.com" class="footer-icon"><img src="assets/photos/email.png" class="contact-img"></a>
     </div>
     <script type="text/javascript"  src="<?= $location . "assets/formSender.js"?>"></script>    
 </div>
